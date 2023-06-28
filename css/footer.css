@@ -1,0 +1,30 @@
+/* Estilos para el pie de página */
+div.footer-oscuro{
+    background-color: rgb(50, 50, 50);
+    color: white;
+    width: 100%;
+    padding: 40px;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    box-shadow: 2px -2px 10px black;
+}
+
+div.conjunto-enlaces{
+    text-align: center;
+}
+
+div.conjunto-enlaces a{
+    display: block;
+    text-decoration: none;
+    color: rgb(99, 99, 99);
+    text-align: left;
+}
+
+div.conjunto-enlaces a:hover{
+    color: rgb(179, 179, 179);
+    transform: scale(1.1);
+    transition: all 0.3s ease; 
+    text-shadow: 1px 1px 10px rgb(179, 179, 179);
+}
